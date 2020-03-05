@@ -8,7 +8,7 @@
     "build": "rimraf dist && webpack -p --progress --hide-modules"
   },
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.18.1",
     "axios-mock-adapter": "^1.8.1",
     "echarts": "^3.6.2",
     "element-ui": "^1.2.9",
@@ -42,6 +42,6 @@
     "vue-loader": "^11.1.4",
     "vue-template-compiler": "2.2.6",
     "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^3.1.11"
   }
 }
