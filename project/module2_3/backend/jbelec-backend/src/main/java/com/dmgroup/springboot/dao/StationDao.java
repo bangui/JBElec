@@ -4,13 +4,19 @@ import java.util.List;
 
 import org.springframework.data.domain.Pageable;
 
+import com.dmgroup.springboot.pojo.Fiber;
+import com.dmgroup.springboot.pojo.Protect;
 import com.dmgroup.springboot.pojo.Station;
 
 public interface StationDao {
 	
-	List<Station> findALL();
+	List<Station> findAll();
 	
-	Station getStation(int STATION_ID);
+	Station findOne(int STATION_ID);
+	
+	List<Fiber> findFiber(int STATION_ID);
+	
+	List<Protect> findProtect(int STATION_ID);
 	
 	void update(Station station);
 	

@@ -20,7 +20,7 @@ public class Protect implements Serializable{
 	private String CHANNEL_TYPE;
 	private String A_PORT;
 	private String Z_PORT;
-	private List<Route> TOUTE;
+	private List<Route> ROUTE;
 	private String NOTE;
 	
 	public String get_id() {
@@ -83,11 +83,11 @@ public class Protect implements Serializable{
 	public void setZ_PORT(String z_PORT) {
 		Z_PORT = z_PORT;
 	}
-	public List<Route> getTOUTE() {
-		return TOUTE;
+	public List<Route> getROUTE() {
+		return ROUTE;
 	}
-	public void setTOUTE(List<Route> tOUTE) {
-		TOUTE = tOUTE;
+	public void setROUTE(List<Route> rOUTE) {
+		ROUTE = rOUTE;
 	}
 	public String getNOTE() {
 		return NOTE;

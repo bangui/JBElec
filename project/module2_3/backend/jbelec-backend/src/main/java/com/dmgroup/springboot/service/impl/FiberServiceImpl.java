@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 
 import com.dmgroup.springboot.dao.FiberDao;
 import com.dmgroup.springboot.pojo.Fiber;
+import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.service.FiberService;
 
 @Service("fiberService")
@@ -21,8 +23,8 @@ public class FiberServiceImpl implements FiberService{
 	}
 
 	@Override
-	public Fiber getFiber(int FIBER_ID) {
-		return fiberDao.getFiber(FIBER_ID);
+	public Fiber findOne(int FIBER_ID) {
+		return fiberDao.findOne(FIBER_ID);
 	}
 
 	@Override
@@ -48,6 +50,16 @@ public class FiberServiceImpl implements FiberService{
 	@Override
 	public List<Fiber> findByPage(Fiber fiber, Pageable pageable) {
 		return fiberDao.findByPage(fiber, pageable);
+	}
+
+	@Override
+	public List<Station> findStation(int FIBER_ID) {
+		return fiberDao.findStation(FIBER_ID);
+	}
+
+	@Override
+	public List<Protect> findProtect(int FIBER_ID) {
+		return fiberDao.findProtect(FIBER_ID);
 	}
 
 }

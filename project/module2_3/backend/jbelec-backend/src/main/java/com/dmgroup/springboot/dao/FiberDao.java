@@ -5,11 +5,17 @@ import java.util.List;
 import org.springframework.data.domain.Pageable;
 
 import com.dmgroup.springboot.pojo.Fiber;
+import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Station;
 
 public interface FiberDao {
 	List<Fiber> findAll();
 	
-	Fiber getFiber(int FIBER_ID);
+	Fiber findOne(int FIBER_ID);
+	
+	List<Station> findStation(int FIBER_ID);
+	
+	List<Protect> findProtect(int FIBER_ID);
 	
 	void update(Fiber fiber);
 	

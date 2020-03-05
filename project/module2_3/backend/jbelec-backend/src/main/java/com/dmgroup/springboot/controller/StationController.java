@@ -6,11 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.dmgroup.springboot.pojo.Fiber;
+import com.dmgroup.springboot.pojo.Protect;
 import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.service.StationService;;
 
 @RestController
 @RequestMapping("/station")
+
 public class StationController {
 	@Autowired
 	private StationService stationService;
@@ -19,4 +22,20 @@ public class StationController {
 	public List<Station> find(){
 		return stationService.findAll();
 	}
+	
+	@RequestMapping("/find/station")
+	public Station findOne(Integer stationid) {	
+		return stationService.findOne(stationid);
+	}
+	
+	@RequestMapping("/find/fiber")
+	public List<Fiber> findFiber(Integer stationid) {
+		return stationService.findFiber(stationid);
+	}
+	
+	@RequestMapping("/find/protect")
+	public List<Protect> findProtect(Integer stationid) {
+		return stationService.findProtect(stationid);
+	}
+	
 }

@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.dmgroup.springboot.pojo.Fiber;
+import com.dmgroup.springboot.pojo.Protect;
 import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.dao.StationDao;
 import com.dmgroup.springboot.service.StationService;
@@ -19,43 +21,52 @@ public class StationServiceImpl implements StationService {
 	@Override
 	public List<Station> findAll() {
 
-		return stationDao.findALL();
+		return stationDao.findAll();
 	}
 
-	@Override
-	public Station getStation(int STATION_ID) {
-
-		return stationDao.getStation(STATION_ID);
-	}
 
 	@Override
 	public void update(Station station) {
 		stationDao.update(station);
-		
 	}
 
 	@Override
 	public void insert(Station station) {
 		stationDao.insert(station);
-		
 	}
 
 	@Override
 	public void insertAll(List<Station> station) {
 		stationDao.insertAll(station);
-		
 	}
 
 	@Override
 	public void remove(int STATION_ID) {
 		stationDao.remove(STATION_ID);
-		
 	}
 
 	@Override
 	public List<Station> findByPage(Station station, Pageable pageable) {
-		
 		return stationDao.findByPage(station, pageable);
 	}
+
+	@Override
+	public Station findOne(int STATION_ID) {
+		return stationDao.findOne(STATION_ID);
+	}
+
+
+	@Override
+	public List<Fiber> findFiber(int STATION_ID) {
+		return stationDao.findFiber(STATION_ID);
+	}
+
+
+	@Override
+	public List<Protect> findProtect(int STATION_ID) {
+		return stationDao.findProtect(STATION_ID);
+	}
+
+
 
 }

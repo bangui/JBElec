@@ -7,7 +7,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.dmgroup.springboot.dao.ProtectDao;
+import com.dmgroup.springboot.pojo.Fiber;
 import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.service.ProtectService;
 
 @Service("protectService")
@@ -22,9 +24,8 @@ public class ProtectServiceImpl implements ProtectService{
 	}
 
 	@Override
-	public Protect getProtect(int FIBER_ID) {
-		// TODO Auto-generated method stub
-		return null;
+	public Protect findOne(int PROTECT_ID) {
+		return protectDao.findOne(PROTECT_ID);
 	}
 
 	@Override
@@ -55,6 +56,16 @@ public class ProtectServiceImpl implements ProtectService{
 	public List<Protect> findByPage(Protect protect, Pageable pageable) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public List<Station> findStation(int PROTECT_ID) {
+		return protectDao.findStation(PROTECT_ID);
+	}
+
+	@Override
+	public List<Fiber> findFiber(int PROTECT_ID) {
+		return protectDao.findFiber(PROTECT_ID);
 	}
 
 }

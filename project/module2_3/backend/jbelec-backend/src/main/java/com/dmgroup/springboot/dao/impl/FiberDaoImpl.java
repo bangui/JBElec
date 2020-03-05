@@ -12,6 +12,8 @@ import org.springframework.stereotype.Repository;
 
 import com.dmgroup.springboot.dao.FiberDao;
 import com.dmgroup.springboot.pojo.Fiber;
+import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Station;
 
 @Repository("fiberDao")
 public class FiberDaoImpl implements FiberDao{
@@ -25,15 +27,8 @@ public class FiberDaoImpl implements FiberDao{
 	}
 
 	@Override
-	public Fiber getFiber(int FIBER_ID) {
-		// TODO Auto-generated method stub
-		System.out.println("dao");
-		Fiber fiber=mongoTemplate.findOne(new Query(Criteria.where("FIBER_ID").is(FIBER_ID)), Fiber.class,"fiber_light_path");
-		if(fiber==null){
-			System.out.println("null");
-			return null;
-		}
-		return fiber;	
+	public Fiber findOne(int FIBER_ID) {
+		return mongoTemplate.findOne(new Query(Criteria.where("FIBER_ID").is(FIBER_ID)), Fiber.class,"fiber_light_path");
 	}
 
 	@Override
@@ -70,5 +65,19 @@ public class FiberDaoImpl implements FiberDao{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public List<Station> findStation(int FIBER_ID) {
+		Fiber fiber=findOne(FIBER_ID);
+		return mongoTemplate.find(new Query(Criteria.where("STATION_ID").in(fiber.getSTATIONS_ID())), Station.class,"station");
+	}
+
+	@Override
+	public List<Protect> findProtect(int FIBER_ID) {
+		return mongoTemplate.find(new Query(Criteria.where("ROUTE.FIBERS_ID_LIST").in(FIBER_ID)), Protect.class,"protect");
+		
+	}
+
+
 
 }

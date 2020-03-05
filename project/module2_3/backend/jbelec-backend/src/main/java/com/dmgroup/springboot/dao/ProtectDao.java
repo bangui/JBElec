@@ -4,12 +4,18 @@ import java.util.List;
 
 import org.springframework.data.domain.Pageable;
 
+import com.dmgroup.springboot.pojo.Fiber;
 import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Station;
 
 public interface ProtectDao {
 	List<Protect> findAll();
 	
-	Protect getProtect(int FIBER_ID);
+	Protect findOne(int PROTECT_ID);
+	
+	List<Station> findStation(int PROTECT_ID);
+	
+	List<Fiber> findFiber(int PROTECT_ID);
 	
 	void update(Protect protect);
 	
