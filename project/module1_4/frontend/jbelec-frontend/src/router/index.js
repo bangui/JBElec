@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import index from '@/components/pages/index'
 import test from '@/components/pages/test'
+import HybridMap from '@/components/pages/hybrid_map'
 import MiddleMap from '@/components/middle-map'
 import mainchart from '@/components/mainchart'
 import TopHeader from '@/components/top-header'
@@ -22,20 +23,26 @@ export default new Router({
       component: index
     },
     {
+      path: '/test',
+      name: 'test',
+      component: test
+    },
+    {
       path: '/HelloWorld',
       name: 'HelloWorld',
       component: HelloWorld
     },
     {
-        path: '/test',
-        name: 'test',
-        component: test
-      },
-    {
-        path: '/mymap',
+        path: '/NBmap',
         name: 'MiddleMap',
         component: MiddleMap
     },
-    
+    {
+        path: '/HybridMap',
+        name: 'HybridMap',
+        component: HybridMap
+    },
+
+
   ]
 })

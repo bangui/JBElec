@@ -9,6 +9,7 @@
 export default{
     data() {
             return {
+              stationdata:[],
 
             }
             },
@@ -19,6 +20,30 @@ export default{
 
              this.$echarts.registerMap('NBmap', geoJson,{})
              var myChart = this.$echarts.init(document.getElementById('mapChart'));
+             var data = [
+             {name: '土门子变电站', value: 9},
+             {name: '刘田庄变电站', value: 12},
+             {name: '燕大变电站', value: 12},
+             {name: '娄杖子变电站', value: 12}];
+             var geoCoordMap = {
+                 '土门子变电站':[119.1332822,40.47500918],
+                 '刘田庄变电站':[119.0070982,39.8326443],
+                 '燕大变电站':[119.511289,39.90729717],
+                 '娄杖子变电站':[118.7804827,40.33575862]};
+             var convertData = function (data) {
+                 var res = [];
+                 for (var i = 0; i < data.length; i++) {
+                     var geoCoord = geoCoordMap[data[i].name];
+                     if (geoCoord) {
+                         res.push({
+                             name: data[i].name,
+                             value: geoCoord.concat(data[i].value)
+                         });
+                     }
+                 }
+                 return res;
+             };
+
              var option = {
 
                  tooltip: {
@@ -33,6 +58,8 @@ export default{
                          aspectScale: 0.85,  //地图长度比
                          label: {
                              normal: {
+                               formatter: '{b}',
+                               position: 'right',
                                  show: true,
                                  textStyle: {
                                      color: '#fff'
@@ -45,8 +72,10 @@ export default{
                                  }
                              }
                          },
+                         roam: true,
                          itemStyle: {
                              normal: {
+                                 color: '#F4E925',
                                  areaColor: 'transparent',
                                  borderColor: '#3fdaff',
                                  borderWidth: 2,
@@ -58,13 +87,20 @@ export default{
                                  color: '#fff'
                              }
                          },
-                         data: []
+                         data: convertData(data),
                      }
                  ],
              };
 
              myChart.setOption(option);
       }
+    },
+    created(){
+         // 绑定全局事件globalEvent事件，
+        this.$bus.$on('globalEvent',(val)=>{
+             this.stationdata = val;
+             console.log(this.stationdata);
+        })
     },
     mounted(){
       this.drawMapChart();

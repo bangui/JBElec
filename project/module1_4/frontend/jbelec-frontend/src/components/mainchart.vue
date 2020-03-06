@@ -3,16 +3,15 @@
         <el-row >
             <top-header></top-header>
             <el-col :span="24">
-                <el-col :span="8">
+                <el-col :span="6">
                   <side-nav></side-nav>
                 </el-col>
-                <el-col :span="8">
-                        <middle-map></middle-map>
+                <el-col :span="12">
+                  <middle-map></middle-map>
                 </el-col>
-                    <el-col :span="8">
-                        <right-nav></right-nav>
-                    </el-col>
-
+                <el-col :span="6">
+                  <right-nav></right-nav>
+                </el-col>
             </el-col>
         </el-row>
     </div>
@@ -21,7 +20,8 @@
 <script>
   import TopHeader from './top-header.vue';
   import SideNav from './side-nav.vue';
-  import MiddleMap from './middle-map.vue';
+  //import MiddleMap from './middle-map.vue';
+  import MiddleMap from './pages/hybrid_map';
   import RightNav from './right-nav.vue';
 
   export default {

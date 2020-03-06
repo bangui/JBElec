@@ -1,7 +1,7 @@
 <template>
   <div>
-  <h1>我是右边栏</h1>
-  <h2>{{stationlist}}</h2>
+  <h1>图表区</h1>
+  <h1>{{stationlist[0]}}</h1>
   </div>
 
 </template>
@@ -12,13 +12,15 @@
     data(){
       return {
         stationlist:[],
+        fiber:[],
+        protect:[],
       }
     },
     created(){
          // 绑定全局事件globalEvent事件，
         this.$bus.$on('globalEvent',(val)=>{
-             this.stationlist = val;
-             console.log(this.stationlist);
+           this.stationlist = val;
+           console.log(this.stationlist);
         })
     }
  }
