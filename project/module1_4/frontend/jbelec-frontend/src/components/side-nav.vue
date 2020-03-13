@@ -68,6 +68,7 @@
       })
     },
     sendAjax(){
+      //axios.get({'Access-Control-Allow-Origin':'http://127.0.0.1:8888/station/find/all'})
       axios.get('http://127.0.0.1:8888/station/find/all')
       .then(res=>{
         console.log(res.data.slice(0,100));
@@ -75,10 +76,11 @@
             var obj = {};
             obj.lng = v.x;
             obj.lat = v.y;
-            obj.count = 50;
+            obj.level = 50;
             return obj;
         });
-        this.$bus.$emit('globalEvent',this.stationlist)
+        this.$bus.$emit('globalEvent',this.stationlist);
+        this.$bus.$emit('Event1',res.data);
        })
       .catch(err=>{
         console.log(err)
@@ -96,6 +98,25 @@
       let ywno = this.ywValue;
       this.searchYwAction(ywno);
     },
+  },
+   created(){
+     console.log("从后端获取数据...")
+     axios.get('http://127.0.0.1:8888/station/find/all')
+     .then(res=>{
+       console.log(res.data.slice(0,100));
+       this.stationlist = res.data.map(function(v) {
+           var obj = {};
+           obj.lng = v.x;
+           obj.lat = v.y;
+           obj.level = 50;
+           return obj;
+       });
+       this.$bus.$emit('globalEvent',this.stationlist);
+       this.$bus.$emit('Event1',res.data);
+      })
+     .catch(err=>{
+       console.log(err)
+      })
   }
  }
 </script>

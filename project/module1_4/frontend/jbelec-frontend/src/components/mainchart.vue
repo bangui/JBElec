@@ -21,7 +21,8 @@
   import TopHeader from './top-header.vue';
   import SideNav from './side-nav.vue';
   //import MiddleMap from './middle-map.vue';
-  import MiddleMap from './pages/hybrid_map';
+  import MiddleMap from './pages/map_style2.vue';
+  //import MiddleMap from './pages/hybrid_map';
   import RightNav from './right-nav.vue';
 
   export default {

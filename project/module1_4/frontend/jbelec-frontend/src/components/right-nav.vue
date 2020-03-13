@@ -17,6 +17,7 @@
       }
     },
     created(){
+      console.log("右侧栏收到了数据")
          // 绑定全局事件globalEvent事件，
         this.$bus.$on('globalEvent',(val)=>{
            this.stationlist = val;

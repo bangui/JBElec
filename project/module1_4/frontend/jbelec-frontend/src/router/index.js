@@ -4,9 +4,11 @@ import HelloWorld from '@/components/HelloWorld'
 import index from '@/components/pages/index'
 import test from '@/components/pages/test'
 import HybridMap from '@/components/pages/hybrid_map'
+import map_style2 from '@/components/pages/map_style2'
 import MiddleMap from '@/components/middle-map'
 import mainchart from '@/components/mainchart'
 import TopHeader from '@/components/top-header'
+import rightNav from '@/components/right-nav'
 
 Vue.use(Router)
 
@@ -42,7 +44,16 @@ export default new Router({
         name: 'HybridMap',
         component: HybridMap
     },
-
-
+    {
+        path: '/map_style2',
+        name: 'map_style2',
+        component: map_style2
+    },
+    {
+        path: '/rightNav',
+        name: 'rightNav',
+        component: rightNav
+    },
+    
   ]
 })

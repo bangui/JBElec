@@ -25,7 +25,10 @@ export default {
     },
   data () {
     return {
+      PowerLevel:['交流110kV','交流220kV','交流500kV','交流35kV','交流10kV','直流35kV','直流30kV','交流1000kV'],
+      stationdataWithlevel:[],
       stationdata:[],
+      origindata:[],
 
       heatdata:[
         {lng: 116.418261, lat: 39.921984, count: 50},
@@ -72,16 +75,48 @@ export default {
     }
   },
   methods: {
-
-  },
+    divideData(origindata,f) { //f返回对象的某个指定属性的属性值并存放在数组中
+      let groups= {};
+      origindata.forEach(function(o){ // o是每个元素
+        var group = JSON.stringify(f(o));// PowerLevel为key
+        groups[group] = groups[group] || [];//按PowerLevel来分组
+        groups[group].push(o); // 把list中每个对象压入数组中作为value
+      })
+      return groups;
+      /*
+      return Obejct.keys(groups).map(function(group)) { // 取出groups对象中的所有key，然后边离一个一个key组成的新数组，返回分好了组的二维数组
+        return groups[group];
+      }
+      */
+    },
+    test() {
+      let groups= {};
+      this.origindata.forEach(function(o){ // o是每个元素
+        var group = o.power_LEVEL;// PowerLevel为key
+        groups[group] = groups[group] || [];//按PowerLevel来分组
+        groups[group].push(o); // 把list中每个对象压入数组中作为value
+      })
+      console.log(groups);
+      console.log(groups[this.PowerLevel[0]]);
+      return groups;
+    },
+ },
   created(){
+    /*
        // 绑定全局事件globalEvent事件，
       this.$bus.$on('globalEvent',(val)=>{
            this.stationdata = val;
            console.log(this.stationdata);
+      }),
+    */
+      this.$bus.$on('Event1',(val)=>{
+           this.origindata = val;
+           this.test();
       })
+
   }
 }
+
 </script>
 <style>
   .map{
