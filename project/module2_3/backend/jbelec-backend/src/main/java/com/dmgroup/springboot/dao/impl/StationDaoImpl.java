@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import com.dmgroup.springboot.dao.StationDao;
 import com.dmgroup.springboot.pojo.Fiber;
-import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Station;;
 
 @Repository("stationDao")
@@ -73,13 +73,13 @@ public class StationDaoImpl implements StationDao {
 	
 	@Override
 	public List<Fiber> findFiber(int STATION_ID) {
-		return mongoTemplate.find(new Query(Criteria.where("STATIONS_ID").in(STATION_ID)), Fiber.class,"fiber_light_path");
+		return mongoTemplate.find(new Query(Criteria.where("STATIONS_ID").in(STATION_ID)), Fiber.class,"fiber");
 
 	}
 
 	@Override
-	public List<Protect> findProtect(int STATION_ID) {
-		return mongoTemplate.find(new Query(Criteria.where("ROUTE.STATIONS_ID_LIST").in(STATION_ID)), Protect.class,"protect");
+	public List<Business> findBusiness(int STATION_ID) {
+		return mongoTemplate.find(new Query(Criteria.where("ROUTE.STATIONS_ID_LIST").in(STATION_ID)), Business.class,"service");
 	}
 
 }

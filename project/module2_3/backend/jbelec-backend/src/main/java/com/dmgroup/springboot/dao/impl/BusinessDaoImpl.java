@@ -11,43 +11,43 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
 
-import com.dmgroup.springboot.dao.ProtectDao;
+import com.dmgroup.springboot.dao.BusinessDao;
 import com.dmgroup.springboot.pojo.Fiber;
-import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Route;
 import com.dmgroup.springboot.pojo.Station;
 
-@Repository("ProtectDao")
-public class ProtectDaoImpl implements ProtectDao{
+@Repository("businessDao")
+public class BusinessDaoImpl implements BusinessDao{
 	
 	@Autowired
 	private MongoTemplate mongoTemplate;
 	
 	@Override
-	public List<Protect> findAll() {
+	public List<Business> findAll() {
 		//System.out.println("here we go");
-		return mongoTemplate.findAll(Protect.class,"protect");
+		return mongoTemplate.findAll(Business.class,"service");
 	}
 
 	@Override
-	public Protect findOne(int PROTECT_ID) {
-		return mongoTemplate.findOne(new Query(Criteria.where("PROTECT_ID").is(PROTECT_ID)), Protect.class,"protect");
+	public Business findOne(int PROTECT_ID) {
+		return mongoTemplate.findOne(new Query(Criteria.where("SERVICE_ID").is(PROTECT_ID)), Business.class,"service");
 	}
 
 	@Override
-	public void update(Protect protect) {
+	public void update(Business protect) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void insert(Protect protect) {
+	public void insert(Business protect) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void insertAll(List<Protect> protect) {
+	public void insertAll(List<Business> protect) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -59,14 +59,14 @@ public class ProtectDaoImpl implements ProtectDao{
 	}
 
 	@Override
-	public List<Protect> findByPage(Protect protect, Pageable pageable) {
+	public List<Business> findByPage(Business protect, Pageable pageable) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public List<Station> findStation(int PROTECT_ID) {
-		Protect protect=findOne(PROTECT_ID);
+		Business protect=findOne(PROTECT_ID);
 		Set <Integer>stationsIdList=new HashSet<Integer>();
 		for(Route route : protect.getROUTE()){
 			for(Integer stationId : route.getSTATIONS_ID_LIST()){
@@ -78,14 +78,14 @@ public class ProtectDaoImpl implements ProtectDao{
 
 	@Override
 	public List<Fiber> findFiber(int PROTECT_ID) {
-		Protect protect=findOne(PROTECT_ID);
+		Business protect=findOne(PROTECT_ID);
 		Set <Integer>fibersIdList=new HashSet<Integer>();
 		for(Route route : protect.getROUTE()){
 			for(Integer fiberId : route.getSTATIONS_ID_LIST()){
 				fibersIdList.add(fiberId);
 			}
 		}
-		return mongoTemplate.find(new Query(Criteria.where("FIBER_ID").in(fibersIdList)), Fiber.class,"fiber_light_path");
+		return mongoTemplate.find(new Query(Criteria.where("FIBER_ID").in(fibersIdList)), Fiber.class,"fiber");
 		
 	}
 

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.dmgroup.springboot.dao.FiberDao;
 import com.dmgroup.springboot.pojo.Fiber;
-import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.service.FiberService;
 
@@ -58,8 +58,8 @@ public class FiberServiceImpl implements FiberService{
 	}
 
 	@Override
-	public List<Protect> findProtect(int FIBER_ID) {
-		return fiberDao.findProtect(FIBER_ID);
+	public List<Business> findBusiness(int FIBER_ID) {
+		return fiberDao.findBusiness(FIBER_ID);
 	}
 
 }

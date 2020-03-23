@@ -14,14 +14,16 @@ public class Station implements Serializable{
 	private String POWER_LEVEL;
 	private double x;
 	private double y;
+	private int status;
 	
-	public Station(String _id, int STATION_ID, String STATION_NAME, String POWER_LEVEL, double x, double y) {
+	public Station(String _id, int STATION_ID, String STATION_NAME, String POWER_LEVEL, double x, double y,int status) {
 		this._id = _id;
 		this.STATION_ID = STATION_ID;
 		this.STATION_NAME = STATION_NAME;
 		this.POWER_LEVEL = POWER_LEVEL;
 		this.x = x;
 		this.y = y;
+		this.status=status;
 	}
 	
 	public String get_id() {
@@ -78,5 +80,13 @@ public class Station implements Serializable{
 	
 	public String toString() {
 		return "Station [STATION_ID=" + STATION_ID + ", STATION_NAME=" + STATION_NAME + ", POWER_LEVEL=" + POWER_LEVEL + ", x=" + x + ", y=" + y;
+	}
+
+	public int getStatus() {
+		return status;
+	}
+
+	public void setStatus(int status) {
+		this.status = status;
 	}
 }

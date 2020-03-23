@@ -7,7 +7,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.dmgroup.springboot.pojo.Fiber;
-import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.dao.StationDao;
 import com.dmgroup.springboot.service.StationService;
@@ -20,7 +20,6 @@ public class StationServiceImpl implements StationService {
 	
 	@Override
 	public List<Station> findAll() {
-
 		return stationDao.findAll();
 	}
 
@@ -63,8 +62,8 @@ public class StationServiceImpl implements StationService {
 
 
 	@Override
-	public List<Protect> findProtect(int STATION_ID) {
-		return stationDao.findProtect(STATION_ID);
+	public List<Business> findBusiness(int STATION_ID) {
+		return stationDao.findBusiness(STATION_ID);
 	}
 
 

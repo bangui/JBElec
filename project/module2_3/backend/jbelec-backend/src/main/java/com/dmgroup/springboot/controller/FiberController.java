@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dmgroup.springboot.pojo.Fiber;
-import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.service.FiberService;
+
 @RestController
 @RequestMapping("/fiber")
 public class FiberController {
@@ -19,7 +20,6 @@ public class FiberController {
 	
 	@RequestMapping("/find/all")
 	public List<Fiber> find(){
-		//System.out.println("here");
 		return fiberService.findAll();
 	}
 	
@@ -33,8 +33,8 @@ public class FiberController {
 		return fiberService.findStation(fiberid);
 	}
 	
-	@RequestMapping("/find/protect")
-	public List<Protect> findProtect(Integer fiberid){
-		return fiberService.findProtect(fiberid);
+	@RequestMapping("/find/service")
+	public List<Business> findProtect(Integer fiberid){
+		return fiberService.findBusiness(fiberid);
 	}
 }

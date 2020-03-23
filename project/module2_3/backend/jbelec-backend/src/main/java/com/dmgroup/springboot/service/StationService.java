@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.domain.Pageable;
 
 import com.dmgroup.springboot.pojo.Fiber;
-import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Station;
 
 public interface StationService {
@@ -15,7 +15,7 @@ public interface StationService {
 
 	List<Fiber> findFiber(int STATION_ID);
 	
-	List<Protect> findProtect(int STATION_ID);
+	List<Business> findBusiness(int STATION_ID);
 	
 	void update(Station station);
 	

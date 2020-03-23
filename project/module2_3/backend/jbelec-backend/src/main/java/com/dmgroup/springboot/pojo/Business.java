@@ -5,17 +5,19 @@ import java.util.List;
 
 import org.springframework.data.annotation.Id;
 
-public class Protect implements Serializable{
+public class Business implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
 	@Id
 	private String _id;
-	private int PROTECT_ID;	
+	private int SERVICE_ID;	
+	//"service" will change to "business"
 	private String LINE_NAME;
+	private String SERVICE_TYPE;
 	private String AREA;
 	private String POWER_LEVEL;
-	private String DEVICE_NAME;
+	private String CONFIGURATION;
 	private String PROTECT_NAME;
 	private String CHANNEL_TYPE;
 	private String A_PORT;
@@ -29,11 +31,11 @@ public class Protect implements Serializable{
 	public void set_id(String _id) {
 		this._id = _id;
 	}
-	public int getPROTECT_ID() {
-		return PROTECT_ID;
+	public int getSERVICE_ID() {
+		return SERVICE_ID;
 	}
-	public void setPROTECT_ID(int pROTECT_ID) {
-		PROTECT_ID = pROTECT_ID;
+	public void setSERVICE_ID(int sERVICE_ID) {
+		SERVICE_ID = sERVICE_ID;
 	}
 	public String getLINE_NAME() {
 		return LINE_NAME;
@@ -54,10 +56,10 @@ public class Protect implements Serializable{
 		POWER_LEVEL = pOWER_LEVEL;
 	}
 	public String getDEVICE_NAME() {
-		return DEVICE_NAME;
+		return CONFIGURATION;
 	}
 	public void setDEVICE_NAME(String dEVICE_NAME) {
-		DEVICE_NAME = dEVICE_NAME;
+		CONFIGURATION = dEVICE_NAME;
 	}
 	public String getPROTECT_NAME() {
 		return PROTECT_NAME;
@@ -97,5 +99,11 @@ public class Protect implements Serializable{
 	}
 	public static long getSerialversionuid() {
 		return serialVersionUID;
+	}
+	public String getSERVICE_TYPE() {
+		return SERVICE_TYPE;
+	}
+	public void setSERVICE_TYPE(String sERVICE_TYPE) {
+		SERVICE_TYPE = sERVICE_TYPE;
 	}
 }

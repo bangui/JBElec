@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dmgroup.springboot.pojo.Fiber;
-import com.dmgroup.springboot.pojo.Protect;
+import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.service.StationService;;
 
@@ -33,9 +33,9 @@ public class StationController {
 		return stationService.findFiber(stationid);
 	}
 	
-	@RequestMapping("/find/protect")
-	public List<Protect> findProtect(Integer stationid) {
-		return stationService.findProtect(stationid);
+	@RequestMapping("/find/service")
+	public List<Business> findBusiness(Integer stationid) {
+		return stationService.findBusiness(stationid);
 	}
 	
 }

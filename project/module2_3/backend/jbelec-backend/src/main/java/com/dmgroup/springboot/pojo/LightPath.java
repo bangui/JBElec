@@ -11,7 +11,8 @@ public class LightPath implements Serializable{
 	private String BRAND;
 	private int NUMBER;
 	private String FLAG;
-	private List<String> STATION_NAME;
+	private List<String> STATIONS_NAME;
+	private List<Integer> STATIONS_ID;
 	
 	
 	
@@ -55,12 +56,21 @@ public class LightPath implements Serializable{
 		FLAG = fLAG;
 	}
 
-	public List<String> getSTATION_NAME() {
-		return STATION_NAME;
+	public List<String> getSTATIONS_NAME() {
+		return STATIONS_NAME;
 	}
 
-	public void setSTATION_NAME(List<String> sTATION_NAME) {
-		STATION_NAME = sTATION_NAME;
+	public void setSTATIONS_NAME(List<String> sTATIONS_NAME) {
+		STATIONS_NAME = sTATIONS_NAME;
 	}
-	
+
+	public List<Integer> getSTATIONS_ID() {
+		return STATIONS_ID;
+	}
+
+	public void setSTATIONS_ID(List<Integer> sTATIONS_ID) {
+		STATIONS_ID = sTATIONS_ID;
+	}
+
+
 }
