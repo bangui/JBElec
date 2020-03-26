@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.springframework.data.annotation.Id;
 
+import com.dmgroup.springboot.pojo.Route;
+
 public class Business implements Serializable{
 
 	private static final long serialVersionUID = 1L;
