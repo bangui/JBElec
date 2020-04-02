@@ -1,0 +1,328 @@
+Route plan of business: 安屯二线 is defeat in route: [安定变电站, 大屯变电站] of fiber: 99
+Route plan of business: 安屯一线 is defeat in route: [安定变电站, 大屯变电站] of fiber: 99
+Route plan of business: 霸东二线 is defeat in route: [霸州变电站, 东沽港变电站] of fiber: 94
+Route plan of business: 霸东一线 is defeat in route: [霸州变电站, 东沽港变电站] of fiber: 94
+Route plan of business: 霸三二线 is defeat in route: [霸州变电站, 三圣口变电站] of fiber: 121
+Route plan of business: 霸三一线 is defeat in route: [霸州变电站, 三圣口变电站] of fiber: 121
+Route plan of business: 霸滩二线 is defeat in route: [霸州变电站, 滩里变电站] of fiber: 189
+Route plan of business: 霸滩一线 is defeat in route: [霸州变电站, 滩里变电站] of fiber: 189
+Route plan of business: 奔庞二线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 213
+Route plan of business: 奔庞二线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 102
+Route plan of business: 奔庞二线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 232
+Route plan of business: 奔庞二线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 86
+Route plan of business: 奔庞二线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 57
+Route plan of business: 安龙线 is defeat in route: [安定变电站, 大屯变电站, 龙河变电站] of fiber: 99
+Route plan of business: 安龙线 is defeat in route: [安定变电站, 大屯变电站, 龙河变电站] of fiber: 212
+Route plan of business: 奔庞一线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 213
+Route plan of business: 奔庞一线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 102
+Route plan of business: 奔庞一线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 232
+Route plan of business: 奔庞一线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 86
+Route plan of business: 奔庞一线 is defeat in route: [庞各庄变电站, 金银滩变电站, 乐亭变电站, 苗庄变电站, 安各庄变电站, 倴城变电站] of fiber: 57
+Route plan of business: 察白一线 is defeat in route: [察北变电站, 白龙山变电站] of fiber: 42
+Route plan of business: 察缘线 is defeat in route: [察北变电站, 义缘变电站] of fiber: 31
+Route plan of business: 承台二线 is defeat in route: [承德变电站, 高寺台变电站] of fiber: 158
+Route plan of business: 承榆二线 is defeat in route: [榆树沟变电站, 承德变电站] of fiber: 221
+Route plan of business: 承台一线 is defeat in route: [承德变电站, 高寺台变电站] of fiber: 158
+Route plan of business: 承榆一线 is defeat in route: [榆树沟变电站, 承德变电站] of fiber: 221
+Route plan of business: 承袁二线 is defeat in route: [承德变电站, 袁庄变电站] of fiber: 24
+Route plan of business: 承袁二线 is defeat in route: [承德变电站, 袁庄变电站] of fiber: 24
+Route plan of business: 承袁一线 is defeat in route: [承德变电站, 袁庄变电站] of fiber: 24
+Route plan of business: 承袁一线 is defeat in route: [承德变电站, 袁庄变电站] of fiber: 24
+Route plan of business: 戴王二线 is defeat in route: [戴河变电站, 王校庄变电站] of fiber: 207
+Route plan of business: 戴王二线 is defeat in route: [戴河变电站, 王校庄变电站] of fiber: 207
+Route plan of business: 戴王一线 is defeat in route: [戴河变电站, 王校庄变电站] of fiber: 207
+Route plan of business: 戴小二线 is defeat in route: [戴河变电站, 小营变电站] of fiber: 37
+Route plan of business: 戴小一线 is defeat in route: [戴河变电站, 小营变电站] of fiber: 37
+Route plan of business: 东郡二线 is defeat in route: [宣东变电站, 古郡热电厂变电站] of fiber: 103
+Route plan of business: 东郡一线 is defeat in route: [宣东变电站, 古郡热电厂变电站] of fiber: 103
+Route plan of business: 东杨一线 is defeat in route: [东沽港变电站, 杨芬港变电站] of fiber: 60
+Route plan of business: 东赵二线 is defeat in route: [宣东变电站, 赵川变电站] of fiber: 65
+Route plan of business: 东赵一线 is defeat in route: [宣东变电站, 赵川变电站] of fiber: 65
+Route plan of business: 东枣二线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 81
+Route plan of business: 东枣二线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 112
+Route plan of business: 东枣二线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 57
+Route plan of business: 东枣二线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 137
+Route plan of business: 东枣二线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 160
+Route plan of business: 东枣二线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 77
+Route plan of business: 东枣一线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 81
+Route plan of business: 东枣一线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 112
+Route plan of business: 东枣一线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 57
+Route plan of business: 东枣一线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 137
+Route plan of business: 东枣一线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 160
+Route plan of business: 东枣一线 is defeat in route: [唐山东变电站, 古马变电站, 倴城变电站, 安各庄变电站, 青坨营变电站, 马庄变电站, 枣园变电站] of fiber: 77
+Route plan of business: 凤增二线 is defeat in route: [凤凰台变电站, 增盛路变电站] of fiber: 23
+Route plan of business: 东溯一线 is defeat in route: [唐山东变电站, 溯河变电站] of fiber: 181
+Route plan of business: 东溯二线 is defeat in route: [唐山东变电站, 溯河变电站] of fiber: 181
+Route plan of business: 凤增一线 is defeat in route: [凤凰台变电站, 增盛路变电站] of fiber: 23
+Route plan of business: 董柳二线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 92
+Route plan of business: 董柳二线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 216
+Route plan of business: 董柳二线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 13
+Route plan of business: 董柳二线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 19
+Route plan of business: 董柳二线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 154
+Route plan of business: 董柳二线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 196
+Route plan of business: 董柳二线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 166
+Route plan of business: 董柳一线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 92
+Route plan of business: 董柳一线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 216
+Route plan of business: 董柳一线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 13
+Route plan of business: 董柳一线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 19
+Route plan of business: 董柳一线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 154
+Route plan of business: 董柳一线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 196
+Route plan of business: 董柳一线 is defeat in route: [董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站, 裕丰变电站, 柳树颧变电站] of fiber: 166
+Route plan of business: 港孟二线 is defeat in route: [港东变电站, 孟姜变电站] of fiber: 156
+Route plan of business: 港五线 is defeat in route: [港东变电站, 李庄变电站, 五里台变电站] of fiber: 179
+Route plan of business: 港五线 is defeat in route: [港东变电站, 李庄变电站, 五里台变电站] of fiber: 74
+Route plan of business: 沽察一线 is defeat in route: [察北变电站, 沽源变电站] of fiber: 109
+Route plan of business: 沽浩二线 is defeat in route: [浩门岭变电站, 沽源变电站] of fiber: 16
+Route plan of business: 固刘二线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 127
+Route plan of business: 固刘二线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 202
+Route plan of business: 固刘二线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 95
+Route plan of business: 固刘二线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 47
+Route plan of business: 沽浩一线 is defeat in route: [浩门岭变电站, 沽源变电站] of fiber: 16
+Route plan of business: 固刘一线 is defeat in route: [固安变电站, 刘其营变电站] of fiber: 177
+Route plan of business: 固旺一线 is defeat in route: [固安变电站, 北旺变电站] of fiber: 114
+Route plan of business: 固刘二线 is defeat in route: [固安变电站, 刘其营变电站] of fiber: 177
+Route plan of business: 固龙二线 is defeat in route: [固安变电站, 龙河变电站] of fiber: 211
+Route plan of business: 固龙一线 is defeat in route: [固安变电站, 龙河变电站] of fiber: 211
+Route plan of business: 固刘一线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 127
+Route plan of business: 固刘一线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 202
+Route plan of business: 固刘一线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 95
+Route plan of business: 固刘一线 is defeat in route: [固安变电站, 渠沟变电站, 赵家务变电站, 康仙变电站, 刘其营变电站] of fiber: 47
+Route plan of business: 固旺二线 is defeat in route: [固安变电站, 北旺变电站] of fiber: 114
+Route plan of business: 韩山二线 is defeat in route: [唐山西变电站, 韩城变电站] of fiber: 216
+Route plan of business: 韩山一线 is defeat in route: [唐山西变电站, 韩城变电站] of fiber: 216
+Route plan of business: 韩胥二线 is defeat in route: [韩城变电站, 胥各庄变电站] of fiber: 13
+Route plan of business: 韩胥一线 is defeat in route: [韩城变电站, 胥各庄变电站] of fiber: 13
+Route plan of business: 虹湖二线 is defeat in route: [虹桥变电站, 后湖变电站] of fiber: 203
+Route plan of business: 虹湖一线 is defeat in route: [虹桥变电站, 后湖变电站] of fiber: 203
+Route plan of business: 侯岛二线 is defeat in route: [侯家庙变电站, 黄金岛变电站] of fiber: 145
+Route plan of business: 侯岛一线 is defeat in route: [侯家庙变电站, 黄金岛变电站] of fiber: 145
+Route plan of business: 侯东一线 is defeat in route: [宣东变电站, 侯家庙变电站] of fiber: 183
+Route plan of business: 建森二线 is defeat in route: [森园变电站, 建平变电站] of fiber: 48
+Route plan of business: 建森一线 is defeat in route: [森园变电站, 宽城变电站, 都山变电站, 承德变电站, 建平变电站] of fiber: 233
+Route plan of business: 建森一线 is defeat in route: [森园变电站, 宽城变电站, 都山变电站, 承德变电站, 建平变电站] of fiber: 116
+Route plan of business: 建森一线 is defeat in route: [森园变电站, 宽城变电站, 都山变电站, 承德变电站, 建平变电站] of fiber: 108
+Route plan of business: 建森一线 is defeat in route: [森园变电站, 宽城变电站, 都山变电站, 承德变电站, 建平变电站] of fiber: 21
+Route plan of business: 姜郝二线 is defeat in route: [姜家营变电站, 郝庄变电站] of fiber: 165
+Route plan of business: 姜景二线 is defeat in route: [姜家营变电站, 景忠山变电站] of fiber: 194
+Route plan of business: 侯东二线 is defeat in route: [宣东变电站, 侯家庙变电站] of fiber: 183
+Route plan of business: 姜景一线 is defeat in route: [姜家营变电站, 景忠山变电站] of fiber: 194
+Route plan of business: 姜景二线 is defeat in route: [姜家营变电站, 兴城变电站, 景忠山变电站] of fiber: 26
+Route plan of business: 姜景二线 is defeat in route: [姜家营变电站, 兴城变电站, 景忠山变电站] of fiber: 172
+Route plan of business: 姜兴二线 is defeat in route: [姜家营变电站, 兴城变电站] of fiber: 26
+Route plan of business: 姜兴一线 is defeat in route: [姜家营变电站, 兴城变电站] of fiber: 26
+Route plan of business: 姜景一线 is defeat in route: [姜家营变电站, 兴城变电站, 景忠山变电站] of fiber: 26
+Route plan of business: 姜景一线 is defeat in route: [姜家营变电站, 兴城变电站, 景忠山变电站] of fiber: 172
+Route plan of business: 金宝二线 is defeat in route: [金山岭变电站, 元宝山变电站] of fiber: 104
+Route plan of business: 金宝一线 is defeat in route: [金山岭变电站, 元宝山变电站] of fiber: 104
+Route plan of business: 金潮二线 is defeat in route: [潮河变电站, 金山岭变电站] of fiber: 59
+Route plan of business: 金潮二线 is defeat in route: [潮河变电站, 金山岭变电站] of fiber: 59
+Route plan of business: 金潮一线 is defeat in route: [潮河变电站, 金山岭变电站] of fiber: 59
+Route plan of business: 金道二线 is defeat in route: [五道营变电站, 潮河变电站, 金山岭变电站] of fiber: 97
+Route plan of business: 金道二线 is defeat in route: [五道营变电站, 潮河变电站, 金山岭变电站] of fiber: 59
+Route plan of business: 金道二线 is defeat in route: [五道营变电站, 金山岭变电站] of fiber: 175
+Route plan of business: 金道一线 is defeat in route: [五道营变电站, 金山岭变电站] of fiber: 175
+Route plan of business: 金道一线 is defeat in route: [五道营变电站, 潮河变电站, 金山岭变电站] of fiber: 97
+Route plan of business: 金道一线 is defeat in route: [五道营变电站, 潮河变电站, 金山岭变电站] of fiber: 59
+Route plan of business: 金文二线 is defeat in route: [金山岭变电站, 天文台变电站] of fiber: 110
+Route plan of business: 金文二线 is defeat in route: [金山岭变电站, 天文台变电站] of fiber: 110
+Route plan of business: 金文一线 is defeat in route: [金山岭变电站, 天文台变电站] of fiber: 110
+Route plan of business: 金文一线 is defeat in route: [金山岭变电站, 天文台变电站] of fiber: 110
+Route plan of business: 金潮一线 is defeat in route: [潮河变电站, 金山岭变电站] of fiber: 59
+Route plan of business: 景河线 is defeat in route: [瀑河变电站, 榆树沟变电站, 承德变电站, 姜家营变电站] of fiber: 117
+Route plan of business: 景河线 is defeat in route: [瀑河变电站, 榆树沟变电站, 承德变电站, 姜家营变电站] of fiber: 221
+Route plan of business: 景河线 is defeat in route: [瀑河变电站, 榆树沟变电站, 承德变电站, 姜家营变电站] of fiber: 225
+Route plan of business: 景河线 is defeat in route: [姜家营变电站, 景忠山变电站] of fiber: 194
+Route plan of business: 乐扣二线 is defeat in route: [阳乐变电站, 扣庄变电站] of fiber: 118
+Route plan of business: 乐罗一线 is defeat in route: [阳乐变电站, 罗屯变电站] of fiber: 106
+Route plan of business: 乐驿一线 is defeat in route: [阳乐变电站, 驿南府变电站] of fiber: 146
+Route plan of business: 乐驿二线 is defeat in route: [阳乐变电站, 驿南府变电站] of fiber: 146
+Route plan of business: 乐罗二线 is defeat in route: [阳乐变电站, 罗屯变电站] of fiber: 106
+Route plan of business: 乐扣一线 is defeat in route: [阳乐变电站, 扣庄变电站] of fiber: 118
+Route plan of business: 李五二线 is defeat in route: [李庄变电站, 五里台变电站] of fiber: 74
+Route plan of business: 李五一线 is defeat in route: [李庄变电站, 五里台变电站] of fiber: 74
+Route plan of business: 龙小二线 is defeat in route: [龙家店变电站, 小营变电站] of fiber: 15
+Route plan of business: 龙小一线 is defeat in route: [龙家店变电站, 小营变电站] of fiber: 15
+Route plan of business: 隆木二线 is defeat in route: [隆城变电站, 木兰变电站] of fiber: 200
+Route plan of business: 隆木一线 is defeat in route: [隆城变电站, 木兰变电站] of fiber: 200
+Route plan of business: 隆木二线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 226
+Route plan of business: 隆木二线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 98
+Route plan of business: 隆木二线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 197
+Route plan of business: 隆木二线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 150
+Route plan of business: 隆木一线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 226
+Route plan of business: 隆木一线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 98
+Route plan of business: 隆木一线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 197
+Route plan of business: 隆木一线 is defeat in route: [隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站, 木兰变电站] of fiber: 150
+Route plan of business: 南夏二线 is defeat in route: [夏源变电站, 张南变电站] of fiber: 69
+Route plan of business: 南夏一线 is defeat in route: [夏源变电站, 张南变电站] of fiber: 69
+Route plan of business: 南新二线 is defeat in route: [新怀来变电站, 张南变电站] of fiber: 52
+Route plan of business: 南新二线 is defeat in route: [新怀来变电站, 张南变电站] of fiber: 52
+Route plan of business: 南新一线 is defeat in route: [新怀来变电站, 张南变电站] of fiber: 52
+Route plan of business: 南新一线 is defeat in route: [新怀来变电站, 张南变电站] of fiber: 52
+Route plan of business: 平肖一线 is defeat in route: [平方变电站, 肖营子变电站] of fiber: 55
+Route plan of business: 庞金二线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 185
+Route plan of business: 庞金二线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 57
+Route plan of business: 庞金二线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 86
+Route plan of business: 庞金二线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 232
+Route plan of business: 庞金二线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 102
+Route plan of business: 三关二线 is defeat in route: [三马坊变电站, 君关变电站] of fiber: 17
+Route plan of business: 庞金一线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 185
+Route plan of business: 庞金一线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 57
+Route plan of business: 庞金一线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 86
+Route plan of business: 庞金一线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 232
+Route plan of business: 庞金一线 is defeat in route: [庞各庄变电站, 倴城变电站, 安各庄变电站, 苗庄变电站, 乐亭变电站, 金银滩变电站] of fiber: 102
+Route plan of business: 三关一线 is defeat in route: [三马坊变电站, 君关变电站] of fiber: 17
+Route plan of business: 木御线 is defeat in route: [木兰变电站, 隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站] of fiber: 200
+Route plan of business: 木御线 is defeat in route: [木兰变电站, 隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站] of fiber: 226
+Route plan of business: 木御线 is defeat in route: [木兰变电站, 隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站] of fiber: 98
+Route plan of business: 木御线 is defeat in route: [木兰变电站, 隆城变电站, 周营子变电站, 金山岭变电站, 御道口变电站] of fiber: 197
+Route plan of business: 沙闫一线 is defeat in route: [黄金岛变电站, 闫家屯变电站] of fiber: 101
+Route plan of business: 沙闫一线 is defeat in route: [沙岭子电厂, 万全变电站] of fiber: 80
+Route plan of business: 沙闫一线 is defeat in route: [张北变电站, 闫家屯变电站] of fiber: 144
+Route plan of business: 木御线 is defeat in route: [木兰变电站, 御道口变电站] of fiber: 150
+Route plan of business: 山甄线 is defeat in route: [贾安子变电站, 甄家庄变电站] of fiber: 8
+Route plan of business: 上郡二线 is defeat in route: [上花园变电站, 古郡热电厂变电站] of fiber: 149
+Route plan of business: 上郡一线 is defeat in route: [上花园变电站, 古郡热电厂变电站] of fiber: 149
+Route plan of business: 邵蒋二线 is defeat in route: [邵府变电站, 蒋辛屯变电站] of fiber: 198
+Route plan of business: 邵蒋一线 is defeat in route: [邵府变电站, 蒋辛屯变电站] of fiber: 198
+Route plan of business: 石洼二线 is defeat in route: [洼里变电站, 石榴河变电站] of fiber: 11
+Route plan of business: 石洼一线 is defeat in route: [洼里变电站, 吕家坨变电站, 石榴河变电站] of fiber: 169
+Route plan of business: 石洼一线 is defeat in route: [洼里变电站, 吕家坨变电站, 石榴河变电站] of fiber: 34
+Route plan of business: 石洼二线 is defeat in route: [洼里变电站, 吕家坨变电站, 石榴河变电站] of fiber: 169
+Route plan of business: 石洼二线 is defeat in route: [洼里变电站, 吕家坨变电站, 石榴河变电站] of fiber: 34
+Route plan of business: 石洼一线 is defeat in route: [洼里变电站, 石榴河变电站] of fiber: 11
+Route plan of business: 宋胥一线 is defeat in route: [宋家营变电站, 胥各庄变电站] of fiber: 19
+Route plan of business: 台隆二线 is defeat in route: [高寺台变电站, 隆城变电站] of fiber: 218
+Route plan of business: 宋胥二线 is defeat in route: [宋家营变电站, 胥各庄变电站] of fiber: 19
+Route plan of business: 台隆一线 is defeat in route: [高寺台变电站, 隆城变电站] of fiber: 218
+Route plan of business: 台隆二线 is defeat in route: [高寺台变电站, 隆城变电站] of fiber: 218
+Route plan of business: 太虹二线 is defeat in route: [太平变电站, 郭家屯变电站, 虹桥变电站] of fiber: 152
+Route plan of business: 太虹二线 is defeat in route: [太平变电站, 郭家屯变电站, 虹桥变电站] of fiber: 133
+Route plan of business: 太旺二线 is defeat in route: [太平变电站, 兴旺寨变电站] of fiber: 54
+Route plan of business: 太虹一线 is defeat in route: [太平变电站, 郭家屯变电站, 虹桥变电站] of fiber: 152
+Route plan of business: 太虹一线 is defeat in route: [太平变电站, 郭家屯变电站, 虹桥变电站] of fiber: 133
+Route plan of business: 太旺一线 is defeat in route: [太平变电站, 兴旺寨变电站] of fiber: 54
+Route plan of business: 天官二线 is defeat in route: [天马变电站, 陈官屯变电站] of fiber: 124
+Route plan of business: 天官一线 is defeat in route: [天马变电站, 陈官屯变电站] of fiber: 124
+Route plan of business: 天平二线 is defeat in route: [天马变电站, 平方变电站] of fiber: 6
+Route plan of business: 天平一线 is defeat in route: [天马变电站, 平方变电站] of fiber: 6
+Route plan of business: 亭创二线 is defeat in route: [乐亭变电站, 创业园变电站] of fiber: 164
+Route plan of business: 亭创一线 is defeat in route: [乐亭变电站, 创业园变电站] of fiber: 164
+Route plan of business: 亭苗二线 is defeat in route: [乐亭变电站, 苗庄变电站] of fiber: 232
+Route plan of business: 亭苗一线 is defeat in route: [乐亭变电站, 苗庄变电站] of fiber: 232
+Route plan of business: 洼河二线 is defeat in route: [洼里变电站, 河东变电站] of fiber: 5
+Route plan of business: 屯龙一线 is defeat in route: [大屯变电站, 龙河变电站] of fiber: 212
+Route plan of business: 洼吕二线 is defeat in route: [洼里变电站, 吕家坨变电站] of fiber: 169
+Route plan of business: 洼河一线 is defeat in route: [洼里变电站, 河东变电站] of fiber: 5
+Route plan of business: 万岛一线 is defeat in route: [黄金岛变电站, 万全变电站] of fiber: 180
+Route plan of business: 洼吕一线 is defeat in route: [洼里变电站, 吕家坨变电站] of fiber: 169
+Route plan of business: 万岛二线 is defeat in route: [黄金岛变电站, 万全变电站] of fiber: 180
+Route plan of business: 万青二线 is defeat in route: [青水变电站, 万全变电站] of fiber: 201
+Route plan of business: 天肖线 is defeat in route: [天马变电站, 平方变电站, 肖营子变电站] of fiber: 6
+Route plan of business: 天肖线 is defeat in route: [天马变电站, 平方变电站, 肖营子变电站] of fiber: 55
+Route plan of business: 屯龙二线 is defeat in route: [大屯变电站, 龙河变电站] of fiber: 212
+Route plan of business: 万张一线 is defeat in route: [张北变电站, 闫家屯变电站] of fiber: 144
+Route plan of business: 万宣线 is defeat in route: [宣西变电站, 万全变电站] of fiber: 214
+Route plan of business: 万青一线 is defeat in route: [青水变电站, 万全变电站] of fiber: 201
+Route plan of business: 万闫一线 is defeat in route: [闫家屯变电站, 张北变电站, 万全变电站] of fiber: 144
+Route plan of business: 万闫一线 is defeat in route: [闫家屯变电站, 张北变电站, 万全变电站] of fiber: 38
+Route plan of business: 万榆线 is defeat in route: [榆林变电站, 宣西变电站, 万全变电站] of fiber: 29
+Route plan of business: 万榆线 is defeat in route: [榆林变电站, 宣西变电站, 万全变电站] of fiber: 214
+Route plan of business: 五孟线 is defeat in route: [五里台变电站, 港东变电站, 孟姜变电站] of fiber: 58
+Route plan of business: 五孟线 is defeat in route: [五里台变电站, 港东变电站, 孟姜变电站] of fiber: 156
+Route plan of business: 旺遵二线 is defeat in route: [兴旺寨变电站, 遵化变电站] of fiber: 78
+Route plan of business: 旺遵一线 is defeat in route: [兴旺寨变电站, 遵化变电站] of fiber: 78
+Route plan of business: 武溯二线 is defeat in route: [溯河变电站, 武山变电站] of fiber: 70
+Route plan of business: 武溯一线 is defeat in route: [溯河变电站, 武山变电站] of fiber: 70
+Route plan of business: 武溯一线 is defeat in route: [溯河变电站, 武山变电站] of fiber: 70
+Route plan of business: 武溯二线 is defeat in route: [溯河变电站, 武山变电站] of fiber: 70
+Route plan of business: 夏关二线 is defeat in route: [夏源变电站, 君关变电站] of fiber: 161
+Route plan of business: 夏关一线 is defeat in route: [夏源变电站, 君关变电站] of fiber: 161
+Route plan of business: 徐杜二线 is defeat in route: [徐庄变电站, 杜庄变电站] of fiber: 0
+Route plan of business: 徐杜一线 is defeat in route: [徐庄变电站, 杜庄变电站] of fiber: 0
+Route plan of business: 徐李二线 is defeat in route: [李庄变电站, 徐庄变电站] of fiber: 228
+Route plan of business: 徐李一线 is defeat in route: [李庄变电站, 徐庄变电站] of fiber: 228
+Route plan of business: 徐王二线 is defeat in route: [徐庄变电站, 王校庄变电站] of fiber: 222
+Route plan of business: 宣东二线 is defeat in route: [宣东变电站, 宣西变电站] of fiber: 10
+Route plan of business: 宣东二线 is defeat in route: [宣东变电站, 宣西变电站] of fiber: 10
+Route plan of business: 宣东一线 is defeat in route: [宣东变电站, 宣西变电站] of fiber: 10
+Route plan of business: 宣东一线 is defeat in route: [宣东变电站, 宣西变电站] of fiber: 10
+Route plan of business: 宣榆线 is defeat in route: [宣西变电站, 榆林变电站] of fiber: 29
+Route plan of business: 姚扣线 is defeat in route: [姚官屯变电站, 扣庄变电站] of fiber: 73
+Route plan of business: 姚扣线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 阳乐变电站, 扣庄变电站] of fiber: 91
+Route plan of business: 姚扣线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 阳乐变电站, 扣庄变电站] of fiber: 124
+Route plan of business: 姚扣线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 阳乐变电站, 扣庄变电站] of fiber: 12
+Route plan of business: 姚扣线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 阳乐变电站, 扣庄变电站] of fiber: 118
+Route plan of business: 驿郝一线 is defeat in route: [驿南府变电站, 郝庄变电站] of fiber: 229
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 91
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 124
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 217
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 15
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 76
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 70
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 85
+Route plan of business: 姚赵线 is defeat in route: [姚官屯变电站, 陈官屯变电站, 天马变电站, 小营变电站, 龙家店变电站, 武山变电站, 溯河变电站, 岳野山变电站, 赵店子变电站] of fiber: 204
+Route plan of business: 徐王一线 is defeat in route: [徐庄变电站, 王校庄变电站] of fiber: 222
+Route plan of business: 裕柳二线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 196
+Route plan of business: 裕柳二线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 154
+Route plan of business: 裕柳二线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 19
+Route plan of business: 裕柳二线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 13
+Route plan of business: 裕柳二线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 216
+Route plan of business: 裕柳二线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 92
+Route plan of business: 裕柳二线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 113
+Route plan of business: 缘尚二线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 义缘变电站] of fiber: 182
+Route plan of business: 裕柳一线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 196
+Route plan of business: 裕柳一线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 154
+Route plan of business: 裕柳一线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 19
+Route plan of business: 裕柳一线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 13
+Route plan of business: 裕柳一线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 216
+Route plan of business: 裕柳一线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 92
+Route plan of business: 裕柳一线 is defeat in route: [裕丰变电站, 南化变电站, 宋家营变电站, 胥各庄变电站, 韩城变电站, 唐山西变电站, 董代庄变电站, 柳树颧变电站] of fiber: 113
+Route plan of business: 裕南二线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 166
+Route plan of business: 裕南二线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 113
+Route plan of business: 裕南二线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 92
+Route plan of business: 裕南二线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 216
+Route plan of business: 裕南二线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 13
+Route plan of business: 裕南二线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 19
+Route plan of business: 裕南二线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 154
+Route plan of business: 缘尚二线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 208
+Route plan of business: 缘尚二线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 142
+Route plan of business: 缘尚二线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 63
+Route plan of business: 缘尚二线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 42
+Route plan of business: 缘尚二线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 31
+Route plan of business: 裕南一线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 166
+Route plan of business: 裕南一线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 113
+Route plan of business: 裕南一线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 92
+Route plan of business: 裕南一线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 216
+Route plan of business: 裕南一线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 13
+Route plan of business: 裕南一线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 19
+Route plan of business: 裕南一线 is defeat in route: [裕丰变电站, 柳树颧变电站, 董代庄变电站, 唐山西变电站, 韩城变电站, 胥各庄变电站, 宋家营变电站, 南化变电站] of fiber: 154
+Route plan of business: 缘尚一线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 义缘变电站] of fiber: 182
+Route plan of business: 缘尚一线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 208
+Route plan of business: 缘尚一线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 142
+Route plan of business: 缘尚一线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 63
+Route plan of business: 缘尚一线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 42
+Route plan of business: 缘尚一线 is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室, 国电天唯康保风能有限公司配电室, 白龙山变电站, 察北变电站, 义缘变电站] of fiber: 31
+Route plan of business: 周隆二线 is defeat in route: [周营子变电站, 隆城变电站] of fiber: 226
+Route plan of business: 岳赵线 is defeat in route: [岳野山变电站, 赵店子变电站] of fiber: 204
+Route plan of business: 周隆一线 is defeat in route: [周营子变电站, 隆城变电站] of fiber: 226
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 西铺变电站] of fiber: 125
+Route plan of business: 遵铺二线 is defeat in route: [遵化变电站, 西铺变电站] of fiber: 125
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 兴旺寨变电站, 太平变电站, 下院寺变电站, 泉河头变电站, 姜家营变电站, 景忠山变电站, 西铺变电站] of fiber: 78
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 兴旺寨变电站, 太平变电站, 下院寺变电站, 泉河头变电站, 姜家营变电站, 景忠山变电站, 西铺变电站] of fiber: 54
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 兴旺寨变电站, 太平变电站, 下院寺变电站, 泉河头变电站, 姜家营变电站, 景忠山变电站, 西铺变电站] of fiber: 66
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 兴旺寨变电站, 太平变电站, 下院寺变电站, 泉河头变电站, 姜家营变电站, 景忠山变电站, 西铺变电站] of fiber: 140
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 兴旺寨变电站, 太平变电站, 下院寺变电站, 泉河头变电站, 姜家营变电站, 景忠山变电站, 西铺变电站] of fiber: 155
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 兴旺寨变电站, 太平变电站, 下院寺变电站, 泉河头变电站, 姜家营变电站, 景忠山变电站, 西铺变电站] of fiber: 194
+Route plan of business: 遵铺一线 is defeat in route: [遵化变电站, 兴旺寨变电站, 太平变电站, 下院寺变电站, 泉河头变电站, 姜家营变电站, 景忠山变电站, 西铺变电站] of fiber: 134
+Route plan of business: 承德风电安全稳定控制系统木兰主站A-祥风风电执行装置A is defeat in route: [木兰变电站, 御道口变电站, 祥风风电厂] of fiber: 150
+Route plan of business: 承德风电安全稳定控制系统木兰主站A-祥风风电执行装置A is defeat in route: [木兰变电站, 御道口变电站, 祥风风电厂] of fiber: 30
+Route plan of business: 承德风电安全稳定控制系统木兰主站B-祥风风电执行装置B is defeat in route: [木兰变电站, 御道口变电站, 祥风风电厂] of fiber: 150
+Route plan of business: 承德风电安全稳定控制系统木兰主站B-祥风风电执行装置B is defeat in route: [木兰变电站, 御道口变电站, 祥风风电厂] of fiber: 30
+Route plan of business: 张家口风电安全稳定控制系统沽源执行总站-察北执行装置A is defeat in route: [察北变电站, 沽源变电站] of fiber: 109
+Route plan of business: 张家口风电安全稳定控制系统沽源执行总站-宏达执行装置A is defeat in route: [沽源变电站, 察北变电站] of fiber: 109
+Route plan of business: 张家口风电安全稳定控制系统沽源执行总站-宏达执行装置A is defeat in route: [察北变电站, 宏达风电场] of fiber: 176
+Route plan of business: 500kV张家口北部风电送出安全稳定控制系统尚义执行总站A-金阳风光储执行装置A is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室] of fiber: 208
+Route plan of business: 500kV张家口北部风电送出安全稳定控制系统尚义执行总站B-金阳风光储执行装置B is defeat in route: [河北华电尚义风力发电有限公司配电室, 国网新源张家口风光储示范电站有限公司配电室] of fiber: 208
+Route plan of business: 张家口风电安全稳定控制系统沽源执行总站-坝头执行装置A is defeat in route: [沽源变电站, 察北变电站] of fiber: 109
+Route plan of business: 张家口风电安全稳定控制系统沽源执行总站-坝头执行装置A is defeat in route: [察北变电站, 坝头风电场] of fiber: 129
+Route plan of business: 220kV洼河双回线联切河东联切装置A至洼里联切装置A is defeat in route: [洼里变电站, 河东变电站] of fiber: 5
