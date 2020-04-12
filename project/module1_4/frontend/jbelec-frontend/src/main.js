@@ -9,7 +9,9 @@ import './assets/css/iconfont.css'
 import './assets/css/bootstrap.min.css'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css';
-import BaiduMap from 'vue-baidu-map'       
+import BaiduMap from 'vue-baidu-map'     
+import Contextmenu from "vue-contextmenujs"
+Vue.use(Contextmenu);
 Vue.use(BaiduMap, {
   /* Visit http://lbsyun.baidu.com/apiconsole/key for details about app key. */
   ak: 'DQju5VUHuvXTGSuMzYy4vuY1MW9qc2VW'

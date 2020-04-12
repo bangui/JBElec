@@ -21,9 +21,11 @@
         <el-input v-model="ywValue" placeholder="输入业务" icon="search" :on-icon-click="searchYw">
         </el-input>
     </div>
+    <!--
    <div style="width: 250px" >
      <button@click = 'sendAjax'>查找所有站点</button>
   </div>
+  -->
   </div>
 
 </template>
@@ -40,7 +42,9 @@
         stationlist:[],
       }
     },
+  /*
   methods:{
+
     searchLineAction() {
       console.log(this.lineValue);
       axios.get('http://127.0.0.1:8888/fiber/find/one',{params:{
@@ -99,6 +103,8 @@
       this.searchYwAction(ywno);
     },
   },
+  */
+ /*
    created(){
      console.log("从后端获取数据...")
      axios.get('http://127.0.0.1:8888/station/find/all')
@@ -118,7 +124,9 @@
        console.log(err)
       })
   }
+  */
  }
+
 </script>
 
 <style>
