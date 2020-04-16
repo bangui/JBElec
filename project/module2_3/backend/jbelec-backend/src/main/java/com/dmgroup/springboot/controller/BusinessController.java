@@ -12,8 +12,7 @@ import com.dmgroup.springboot.pojo.Station;
 import com.dmgroup.springboot.service.BusinessService;
 
 @RestController
-@RequestMapping("/service")
-//will change /service to /business
+@RequestMapping("/business")
 public class BusinessController {
 	@Autowired
 	private BusinessService businessService;

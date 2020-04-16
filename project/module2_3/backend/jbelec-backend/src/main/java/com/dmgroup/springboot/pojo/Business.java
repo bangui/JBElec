@@ -13,10 +13,9 @@ public class Business implements Serializable{
 	
 	@Id
 	private String _id;
-	private int SERVICE_ID;	
-	//"service" will change to "business"
+	private int BUSINESS_ID;	
 	private String LINE_NAME;
-	private String SERVICE_TYPE;
+	private String BUSINESS_TYPE;
 	private String AREA;
 	private String POWER_LEVEL;
 	private String CONFIGURATION;
@@ -33,12 +32,7 @@ public class Business implements Serializable{
 	public void set_id(String _id) {
 		this._id = _id;
 	}
-	public int getSERVICE_ID() {
-		return SERVICE_ID;
-	}
-	public void setSERVICE_ID(int sERVICE_ID) {
-		SERVICE_ID = sERVICE_ID;
-	}
+
 	public String getLINE_NAME() {
 		return LINE_NAME;
 	}
@@ -102,10 +96,17 @@ public class Business implements Serializable{
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-	public String getSERVICE_TYPE() {
-		return SERVICE_TYPE;
+	public int getBUSINESS_ID() {
+		return BUSINESS_ID;
 	}
-	public void setSERVICE_TYPE(String sERVICE_TYPE) {
-		SERVICE_TYPE = sERVICE_TYPE;
+	public void setBUSINESS_ID(int bUSINESS_ID) {
+		BUSINESS_ID = bUSINESS_ID;
 	}
+	public String getBUSINESS_TYPE() {
+		return BUSINESS_TYPE;
+	}
+	public void setBUSINESS_TYPE(String bUSINESS_TYPE) {
+		BUSINESS_TYPE = bUSINESS_TYPE;
+	}
+
 }

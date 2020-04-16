@@ -43,6 +43,7 @@ public class RunRoutePlan {
 	public void RoutePlanTest() throws Exception {
 //		System.out.println("// get business");
 		List<Business> busis = businessService.findAll();
+		//UpdateGraphFromDB();
 //		System.out.println("// get fibers");
 		List<Fiber> fibers = fiberService.findAll();		
 //		System.out.println("// test each business");
@@ -52,8 +53,8 @@ public class RunRoutePlan {
         FileWriter writer = new FileWriter(writeName);
         BufferedWriter out = new BufferedWriter(writer);
         // txt graph path to load
-        String txtGraphPath = "./graph/elec-fibergraphV2.txt";
-        
+        //String txtGraphPath = "./graph/elec-fibergraphV2.txt";
+        String txtGraphPath = "./graph/newGraph.txt";
 		for(Business busi: busis) {
 			List<Route> routes = busi.getROUTE();		
 //			System.out.println("// test each route");
@@ -69,6 +70,7 @@ public class RunRoutePlan {
 				// converge route
 				for(int routeFiber: routeFibers) {
 //					System.out.println("// get fiber src and dst");
+					System.out.println(routeFiber);
 					List<Integer> fiberStations = fiberService.findOne(routeFiber).getSTATIONS_ID();
 					if(fiberStations.size() == 0) continue;
 					int fiberSrc = fiberStations.get(0);
@@ -77,9 +79,11 @@ public class RunRoutePlan {
 //					List<List<Object>> routePlanRes = SparkRoutePlan.run(routeSrc, routeDst, fiberSrc, fiberDst);
 					List<List<Integer>> routePlanRes = JavaRoutePlan.run(txtGraphPath, fiberSrc, fiberDst, routeSrc, routeDst);
 					if(routePlanRes.size() == 0) {
+						List<String> stationNames=fiberService.findOne(routeFiber).getSTATIONS_NAME();
 						String defeatRecord = "Route plan of business: " + busi.getLINE_NAME() + 
 								" is defeat in route: " + route.getSTATIONS_NAME_LIST() +
-								" of fiber: " + routeFiber + "\r\n";
+								" of fiber: " + routeFiber + 
+								" "+stationNames.get(0)+" "+stationNames.get(1)+"\r\n";
 						System.out.println(defeatRecord);
 						out.write(defeatRecord);
 						out.flush();

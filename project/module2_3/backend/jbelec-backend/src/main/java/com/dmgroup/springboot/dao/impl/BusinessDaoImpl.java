@@ -25,13 +25,12 @@ public class BusinessDaoImpl implements BusinessDao{
 	
 	@Override
 	public List<Business> findAll() {
-		//System.out.println("here we go");
-		return mongoTemplate.findAll(Business.class,"service");
+		return mongoTemplate.findAll(Business.class,"business");
 	}
 
 	@Override
 	public Business findOne(int PROTECT_ID) {
-		return mongoTemplate.findOne(new Query(Criteria.where("SERVICE_ID").is(PROTECT_ID)), Business.class,"service");
+		return mongoTemplate.findOne(new Query(Criteria.where("BUSINESS_ID").is(PROTECT_ID)), Business.class,"business");
 	}
 
 	@Override
