@@ -79,7 +79,7 @@ public class StationDaoImpl implements StationDao {
 
 	@Override
 	public List<Business> findBusiness(int STATION_ID) {
-		return mongoTemplate.find(new Query(Criteria.where("ROUTE.STATIONS_ID_LIST").in(STATION_ID)), Business.class,"service");
+		return mongoTemplate.find(new Query(Criteria.where("ROUTE.STATIONS_ID_LIST").in(STATION_ID)), Business.class,"business");
 	}
 
 }

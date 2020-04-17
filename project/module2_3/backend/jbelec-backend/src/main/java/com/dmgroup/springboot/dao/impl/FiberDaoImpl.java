@@ -73,7 +73,7 @@ public class FiberDaoImpl implements FiberDao{
 
 	@Override
 	public List<Business> findBusiness(int FIBER_ID) {
-		return mongoTemplate.find(new Query(Criteria.where("ROUTE.FIBERS_ID_LIST").in(FIBER_ID)), Business.class,"service");
+		return mongoTemplate.find(new Query(Criteria.where("ROUTE.FIBERS_ID_LIST").in(FIBER_ID)), Business.class,"business");
 		
 	}
 
