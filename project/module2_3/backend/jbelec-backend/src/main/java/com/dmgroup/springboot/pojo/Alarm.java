@@ -1,6 +1,7 @@
 package com.dmgroup.springboot.pojo;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
@@ -15,12 +16,12 @@ public class Alarm implements Serializable{
 	private int ALARM_ID;
 	private String LEVEL;
 	private String DESCRIPTION;
-	private String START_TIME;
-	private String END_TIME;
+	private Date START_TIME;
+	private Date END_TIME;
 	private String SOURCE;
 	private String PERSON_NAME;
 	private String TYPE;
-	private String SOURCE_ID;
+	private int SOURCE_ID;
 	private String STATUS;
 	public String getTITLE() {
 		return TITLE;
@@ -46,16 +47,16 @@ public class Alarm implements Serializable{
 	public void setDESCRIPTION(String dESCRIPTION) {
 		DESCRIPTION = dESCRIPTION;
 	}
-	public String getSTART_TIME() {
+	public Date getSTART_TIME() {
 		return START_TIME;
 	}
-	public void setSTART_TIME(String sTART_TIME) {
+	public void setSTART_TIME(Date sTART_TIME) {
 		START_TIME = sTART_TIME;
 	}
-	public String getEND_TIME() {
+	public Date getEND_TIME() {
 		return END_TIME;
 	}
-	public void setEND_TIME(String eND_TIME) {
+	public void setEND_TIME(Date eND_TIME) {
 		END_TIME = eND_TIME;
 	}
 	public String getSOURCE() {
@@ -76,16 +77,31 @@ public class Alarm implements Serializable{
 	public void setTYPE(String tYPE) {
 		TYPE = tYPE;
 	}
-	public String getSOURCE_ID() {
+	public int getSOURCE_ID() {
 		return SOURCE_ID;
 	}
-	public void setSOURCE_ID(String sOURCE_ID) {
+	public void setSOURCE_ID(int sOURCE_ID) {
 		SOURCE_ID = sOURCE_ID;
 	}
 	public String getSTATUS() {
 		return STATUS;
 	}
 	public void setSTATUS(String sTATUS) {
+		STATUS = sTATUS;
+	}
+	public Alarm(String tITLE, int aLARM_ID, String lEVEL, String dESCRIPTION, Date sTART_TIME, Date eND_TIME,
+			String sOURCE, String pERSON_NAME, String tYPE, int sOURCE_ID, String sTATUS) {
+		super();
+		TITLE = tITLE;
+		ALARM_ID = aLARM_ID;
+		LEVEL = lEVEL;
+		DESCRIPTION = dESCRIPTION;
+		START_TIME = sTART_TIME;
+		END_TIME = eND_TIME;
+		SOURCE = sOURCE;
+		PERSON_NAME = pERSON_NAME;
+		TYPE = tYPE;
+		SOURCE_ID = sOURCE_ID;
 		STATUS = sTATUS;
 	}
 }

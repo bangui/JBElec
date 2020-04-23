@@ -11,19 +11,19 @@ import com.dmgroup.springboot.pojo.Station;
 public interface BusinessDao {
 	List<Business> findAll();
 	
-	Business findOne(int BUSINESS_ID);
+	Business findOne(int businessId);
 	
-	List<Station> findStation(int BUSINESS_ID);
+	List<Station> findStation(int businessId);
 	
-	List<Fiber> findFiber(int BUSINESS_ID);
+	List<Fiber> findFiber(int businessId);
 	
 	void update(Business business);
 	
 	void insert(Business business);
 	
-	void insertAll(List<Business> protect);
+	void insertAll(List<Business> business);
 	
-	void remove(int PROTECT_ID);
+	void remove(int businessId);
 	
 	List<Business> findByPage(Business business, Pageable pageable);
 

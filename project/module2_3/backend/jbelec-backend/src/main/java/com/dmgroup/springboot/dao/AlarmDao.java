@@ -7,6 +7,9 @@ import com.dmgroup.springboot.pojo.Alarm;
 public interface AlarmDao {
 	List<Alarm> findAll();
 	
-	Alarm findOne(int ALARM_ID);
+	Alarm findOne(int alarmId);
 	
+	void insert(String title,String description,String level,String personName,String source,int fiberId);
+	
+	void updateStatus(int alarmId);
 }

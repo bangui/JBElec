@@ -9,4 +9,7 @@ public interface AlarmService {
 	
 	Alarm findOne(int ALARM_ID);
 	
+	void insert(String title,String description,String level,String personName,String source,int fiberId);
+	
+	void updateStatus(int alarmId);
 }

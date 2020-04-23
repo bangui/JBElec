@@ -1,5 +1,6 @@
 package com.dmgroup.springboot.service.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,18 @@ public class MaintenanceServiceImpl implements MaintenanceService{
 	@Override
 	public Maintenance findOne(int MAINTAIN_ID) {
 		return maintenanceDao.findOne(MAINTAIN_ID);
+	}
+
+	@Override
+	public void insert(String title, String description, String type, String maintainType, Date startTime, Date endTime,
+			String applyCompany, String applyPerson, int alarmId) {
+		maintenanceDao.insert(title, description, type, maintainType, startTime, endTime, applyCompany, applyPerson, alarmId);
+		
+	}
+
+	@Override
+	public void updateStatus(int maintainId, String description) {
+		maintenanceDao.updateStatus(maintainId, description);
 	}
 
 }

@@ -3,6 +3,7 @@ package com.dmgroup.springboot.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,6 +14,7 @@ import com.dmgroup.springboot.service.FiberService;
 
 @RestController
 @RequestMapping("/fiber")
+@CrossOrigin
 public class FiberController {
 
 	@Autowired
@@ -37,4 +39,10 @@ public class FiberController {
 	public List<Business> findProtect(Integer fiberid){
 		return fiberService.findBusiness(fiberid);
 	}
+	
+	@RequestMapping("/update/status")
+	public void updateStatus(Integer fiberid){
+		fiberService.updateStatus(fiberid);
+	}
+	
 }

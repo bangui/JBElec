@@ -23,4 +23,14 @@ public class AlarmServiceImpl implements AlarmService{
 		return alarmDao.findOne(ALARM_ID);
 	}
 
+	@Override
+	public void insert(String title, String description, String level, String personName, String source, int fiberId) {
+		alarmDao.insert(title, description, level, personName, source, fiberId);
+	}
+
+	@Override
+	public void updateStatus(int alarmId) {
+		alarmDao.updateStatus(alarmId);
+	}
+
 }

@@ -14,6 +14,8 @@ public interface StationDao {
 	
 	Station findOne(int STATION_ID);
 	
+	//void updateStatus(int STATION_ID);
+	
 	List<Fiber> findFiber(int STATION_ID);
 	
 	List<Business> findBusiness(int STATION_ID);

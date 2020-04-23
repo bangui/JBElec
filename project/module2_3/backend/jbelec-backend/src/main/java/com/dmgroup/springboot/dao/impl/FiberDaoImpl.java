@@ -7,12 +7,14 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
 
 import com.dmgroup.springboot.dao.FiberDao;
 import com.dmgroup.springboot.pojo.Fiber;
 import com.dmgroup.springboot.pojo.Business;
 import com.dmgroup.springboot.pojo.Station;
+import com.mongodb.WriteResult;
 
 @Repository("fiberDao")
 public class FiberDaoImpl implements FiberDao{
@@ -31,38 +33,17 @@ public class FiberDaoImpl implements FiberDao{
 	}
 
 	@Override
-	public void update(Fiber fiber) {
-
-		Criteria criteria = Criteria.where("_id").is(fiber.get_id());
+	public void updateStatus(int FIBER_ID) {
+		Fiber fiber=findOne(FIBER_ID);
+		Criteria criteria = Criteria.where("FIBER_ID").is(FIBER_ID);
 		Query query = new Query(criteria);
-		//Update update = Update.update("FIBER_NAME", fiber.getFIBER_NAME()).set("FIBER_FULL_NAME",  fiber.getFIBER_FULL_NAME());
-		//mongoTemplate.updateMulti(query, update, Station.class);
-		// TODO 
-		
-	}
-
-	@Override
-	public void insert(Fiber fiber) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void insertAll(List<Fiber> fiber) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void remove(int FIBER_ID) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public List<Fiber> findByPage(Fiber fiber, Pageable pageable) {
-		// TODO Auto-generated method stub
-		return null;
+		Update update;
+		if(fiber.getStatus()==1){
+			update = Update.update("status", 0);
+		}else{
+			update = Update.update("status", 1);
+		}
+		mongoTemplate.upsert(query, update, "fiber");
 	}
 
 	@Override

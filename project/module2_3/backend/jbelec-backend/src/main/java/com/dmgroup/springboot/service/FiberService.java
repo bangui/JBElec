@@ -17,14 +17,14 @@ public interface FiberService {
 	
 	List<Business> findBusiness(int FIBER_ID);
 	
-	void update(Fiber fiber);
+	void updateStatus(int fiberId);
 	
-	void insert(Fiber fiber);
-	
-	void insertAll(List<Fiber> fiber);
-	
-	void remove(int FIBER_ID);
-	
-	List<Fiber> findByPage(Fiber fiber, Pageable pageable);
+//	void insert(Fiber fiber);
+//	
+//	void insertAll(List<Fiber> fiber);
+//	
+//	void remove(int FIBER_ID);
+//	
+//	List<Fiber> findByPage(Fiber fiber, Pageable pageable);
 
 }

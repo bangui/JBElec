@@ -11,20 +11,20 @@ import com.dmgroup.springboot.pojo.Station;
 public interface FiberDao {
 	List<Fiber> findAll();
 	
-	Fiber findOne(int FIBER_ID);
+	Fiber findOne(int fiberId);
 	
-	List<Station> findStation(int FIBER_ID);
+	List<Station> findStation(int fiberId);
 	
-	List<Business> findBusiness(int FIBER_ID);
+	List<Business> findBusiness(int fiberId);
 	
-	void update(Fiber fiber);
+	void updateStatus(int fiberId);
 	
-	void insert(Fiber fiber);
-	
-	void insertAll(List<Fiber> fiber);
-	
-	void remove(int FIBER_ID);
-	
-	List<Fiber> findByPage(Fiber fiber, Pageable pageable);
+//	void insert(Fiber fiber);
+//	
+//	void insertAll(List<Fiber> fiber);
+//	
+//	void remove(int fiberId);
+//	
+//	List<Fiber> findByPage(Fiber fiber, Pageable pageable);
 
 }

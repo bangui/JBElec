@@ -27,30 +27,6 @@ public class FiberServiceImpl implements FiberService{
 		return fiberDao.findOne(FIBER_ID);
 	}
 
-	@Override
-	public void update(Fiber fiber) {
-		fiberDao.update(fiber);
-	}
-
-	@Override
-	public void insert(Fiber fiber) {
-		fiberDao.insert(fiber); 
-	}
-
-	@Override
-	public void insertAll(List<Fiber> fiber) {
-		fiberDao.insertAll(fiber);
-	}
-
-	@Override
-	public void remove(int FIBER_ID) {
-		fiberDao.remove(FIBER_ID);
-	}
-
-	@Override
-	public List<Fiber> findByPage(Fiber fiber, Pageable pageable) {
-		return fiberDao.findByPage(fiber, pageable);
-	}
 
 	@Override
 	public List<Station> findStation(int FIBER_ID) {
@@ -60,6 +36,11 @@ public class FiberServiceImpl implements FiberService{
 	@Override
 	public List<Business> findBusiness(int FIBER_ID) {
 		return fiberDao.findBusiness(FIBER_ID);
+	}
+
+	@Override
+	public void updateStatus(int fiberId) {
+		fiberDao.updateStatus(fiberId);
 	}
 
 }

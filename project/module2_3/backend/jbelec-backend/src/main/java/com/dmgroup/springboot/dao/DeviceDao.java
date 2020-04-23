@@ -9,11 +9,11 @@ import com.dmgroup.springboot.pojo.Device;
 public interface DeviceDao {
 	List<Device> findAll();
 	
-	Device findOne(int DEVICE_ID);
+	Device findOne(int deviceId);
 	
-	List<Device> findLine(int DEVICE_ID);
+	List<Device> findLine(int deviceId);
 	
-	List<Device> findBusiness(int DEVICE_ID);
+	List<Device> findBusiness(int deviceId);
 	
 	void update(Device device);
 	
@@ -21,7 +21,7 @@ public interface DeviceDao {
 	
 	void insertAll(List<Device> device);
 	
-	void remove(int DEVICE_ID);
+	void remove(int deviceId);
 	
-	List<Device> findByPage(Device fiber, Pageable pageable);
+	List<Device> findByPage(Device device, Pageable pageable);
 }
