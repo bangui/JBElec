@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.ModelAndView;
 
 @ControllerAdvice
-public class GlobalExceptionHandler {
-// 用于捕捉Exception异常及其子类，捕捉到之后并把异常地址放进ModelAndView中，然后跳转到errorPage.jsp
+public class GlobalExceptionHandler { 
 	@ExceptionHandler(value = Exception.class)
 	public ModelAndView defaultErrorHanler(HttpServletRequest req, Exception e) throws Exception{
 		ModelAndView mav = new ModelAndView();
